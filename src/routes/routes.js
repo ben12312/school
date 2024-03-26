@@ -8,6 +8,7 @@ import Icons from "@/pages/Icons.vue";
 import Maps from "@/pages/Maps.vue";
 import Notifications from "@/pages/Notifications.vue";
 import UpgradeToPRO from "@/pages/UpgradeToPRO.vue";
+import Chat from "../pages/Chat.vue";
 
 const routes = [
   {
@@ -15,6 +16,11 @@ const routes = [
     component: DashboardLayout,
     redirect: "/dashboard",
     children: [
+      {
+        path: "chat",
+        name: "Chat",
+        component: Chat,
+      },
       {
         path: "dashboard",
         name: "Dashboard",

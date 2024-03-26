@@ -1,14 +1,11 @@
 <template>
   <div class="content">
     <div class="md-layout">
-      <div class="md-layout-item md-size-66 mx-auto md-small-size-100">
+      <div class="md-layout-item md-size-100 mx-auto md-small-size-100">
         <md-card>
           <md-card-header data-background-color="purple">
-            <h4 class="title">Vue Material Dashboard PRO</h4>
-            <p class="category">
-              Are you looking for more components? Please check our Premium
-              Version of Vue Material Dashboard.
-            </p>
+            <h4 class="title">Laporan Keuangan Sumbangan Pembinaan Pendidikan (SPP)</h4>
+            <p class="category">Rincian biaya keluar - masuk</p>
           </md-card-header>
 
           <md-card-content>
@@ -16,29 +13,42 @@
               <table class="table" cellspacing="0">
                 <thead>
                   <tr>
-                    <th></th>
-                    <th class="text-center">Free</th>
-                    <th class="text-center">PRO</th>
+                    <th class="text-center">Tanggal</th>
+                    <th class="text-center">Penanggung Jawab</th>
+                    <th class="text-center">Keterangan</th>
+                    <th class="text-center">Dana Masuk(Rp.)</th>
+                    <th class="text-center">Dana Keluar(Rp.)</th>
+                    <th class="text-center">Status</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Components</td>
+                    <td class="text-center">02-05-2024</td>
+                    <td class="text-center">Rin</td>
+                    <td class="text-center">Renovasi Kelas</td>
                     <td class="text-center">60</td>
                     <td class="text-center">200</td>
+                    <td class="text-center"><i class="fa fa-times text-danger"></i></td>
                   </tr>
                   <tr>
-                    <td>Plugins</td>
+                    <td class="text-center">02-05-2024</td>
+                    <td class="text-center">Plugins</td>
+                    <td class="text-center">Lomba 17an</td>
                     <td class="text-center">2</td>
                     <td class="text-center">15</td>
+                    <td class="text-center"><i class="fa fa-check text-success"></i></td>
                   </tr>
                   <tr>
-                    <td>Example Pages</td>
+                    <td class="text-center">02-05-2024</td>
+                    <td class="text-center">Plugins</td>
+                    <td class="text-center">Example Pages</td>
                     <td class="text-center">3</td>
                     <td class="text-center">27</td>
                   </tr>
                   <tr>
-                    <td>Login, Register, Pricing, Lock Pages</td>
+                    <td class="text-center">02-05-2024</td>
+                    <td class="text-center">Plugins</td>
+                    <td class="text-center">Plugins</td>
                     <td class="text-center">
                       <i class="fa fa-times text-danger"></i>
                     </td>
@@ -47,19 +57,14 @@
                     </td>
                   </tr>
                   <tr>
-                    <td>
-                      DataTables, VectorMap, SweetAlert, Wizard,
-                      jQueryValidation, FullCalendar etc...
-                    </td>
-                    <td class="text-center">
-                      <i class="fa fa-times text-danger"></i>
-                    </td>
+                    <td class="text-center">DataTable</td>
+                    <td class="text-center"><i class="fa fa-times text-danger"></i></td>
                     <td class="text-center">
                       <i class="fa fa-check text-success"></i>
                     </td>
                   </tr>
                   <tr>
-                    <td>Mini Sidebar</td>
+                    <td class="text-center">Mini Sidebar</td>
                     <td class="text-center">
                       <i class="fa fa-times text-danger"></i>
                     </td>
@@ -76,29 +81,15 @@
                       <i class="fa fa-check text-success"></i>
                     </td>
                   </tr>
-                  <tr>
-                    <td></td>
-                    <td class="text-center">Free</td>
-                    <td class="text-center">Just $59</td>
-                  </tr>
-                  <tr>
-                    <td class="text-center"></td>
-                    <td class="text-center">
-                      <md-button href="#" class="md-default md-round" disabled
-                        >Current Version</md-button
-                      >
-                    </td>
-                    <td class="text-center">
-                      <md-button
-                        target="_blank"
-                        href="https://www.creative-tim.com/product/vue-material-dashboard-pro/?ref=vue-md-free-upgrade-live"
-                        class="md-info md-round"
-                        >Upgrade to PRO</md-button
-                      >
-                    </td>
-                  </tr>
                 </tbody>
               </table>
+              <md-button
+                target="_blank"
+                style="float: right"
+                href="https://www.creative-tim.com/product/vue-material-dashboard-pro/?ref=vue-md-free-upgrade-live"
+                class="md-info md-round"
+                >Upgrade to PRO</md-button
+              >
             </div>
           </md-card-content>
         </md-card>
